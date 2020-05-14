@@ -11,6 +11,12 @@ pages = FlatPages(app)
 
 
 @app.route("/")
+def index():
+    # all_pages = [p for p in pages] #all_pages = [type(p) for p in pages] #all_pages = [p.__dict__ for p in pages]
+    all_pages = [p.meta.get('date', []) for p in pages] #all_pages.sort()
+    return render_template("index.html", pages=pages, all=all_pages)
+
+
 @app.route("/welcome/")
 def welcome():
     return "Welcome to my webpage!"
