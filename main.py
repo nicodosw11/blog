@@ -34,5 +34,15 @@ def tag(tag):
     return render_template('tag.html', pages=tagged, tag=tag)
 
 
+@app.route('/new')
+def latest():
+    # Articles are pages with a date
+    articles = (p for p in pages if 'date' in p.meta)
+    # Show the 3 most recent articles, most recent first.
+    latest = sorted(articles, reverse=True,
+                    key=lambda p: p.meta['date'])
+    return render_template('index.html', pages=latest[:3], all=articles)
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
