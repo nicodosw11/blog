@@ -7,6 +7,20 @@
 │   ├── article-4.md
 │   ├── article-5.md
 │   └── example-text.md
+├── static
+│   ├── css
+│   │   ├── _base.scss
+│   │   ├── _homepage.scss
+│   │   ├── _variables.scss
+│   │   └── main.scss
+│   ├── dist
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── js
+│   │       └── main.min.js
+│   └── js
+│       ├── custom.js
+│       └── log.js
 └── templates
     ├── base.html
     ├── index.html
@@ -15,4 +29,4 @@
     │   └── _list.html
     └── tag.html
 
-3 directories, 12 files
+9 directories, 20 files

@@ -1,0 +1,15 @@
+$primary: #00baca;
+$primary-light1: lighten($primary, 5%);
+$primary-light2: lighten($primary, 10%);
+
+$accent: tomato;
+
+$text-main: #3a3a3a;
+
+$border-color: #fafafa;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

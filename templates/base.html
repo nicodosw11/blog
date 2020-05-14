@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    {% assets "home_css" %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}" />
+    {% endassets %}
+
+    {% assets "home_js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+
     {% if title %}
         <title>Flask Blog - {{ title }}</title>
     {% else %}
@@ -11,7 +20,7 @@
   </head>
   <body>
     <h1><a href="{{ url_for("welcome") }}">Flask Static Blog</a></h1
-    <div>
+    <div class="content-section">
       {% block content %}
       <p>Default Content</p>
       {% endblock content %}

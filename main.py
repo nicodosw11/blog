@@ -3,6 +3,7 @@ import sys
 from flask import Flask, render_template
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
+from flask_assets import Environment, Bundle
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -12,6 +13,20 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
+
+bundles = {
+    "home_js": Bundle(
+        "js/custom.js", "js/log.js", filters="jsmin", output="dist/js/main.min.js"
+    ),
+    "home_css": Bundle(
+        "css/main.scss",
+        depends=["css/*.scss"],
+        filters="libsass",
+        output="dist/css/style.css",
+    ),
+}
+assets = Environment(app)
+assets.register(bundles)
 
 
 @app.route("/")

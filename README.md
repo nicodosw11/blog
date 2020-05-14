@@ -3,10 +3,18 @@
 - Flask 1.1.2
 - Flask-FlatPages 0.7.2
 - Frozen-Flask 0.15
+- Flask-Assets 2.0
+- cssmin 0.2.0
+- jsmin 2.2.2
+- libsass 0.20.0
 
 ```pip install flask```    
 ```pip install Flask-FlatPages```
-```pip install Frozen-Flask```
+```pip install Frozen-Flask```  
+```pip install Flask-Assets```  
+```pip install jsmin```  
+```pip install cssmin```  
+```pip install libsass```
 
 ## Project Structure
 
@@ -20,6 +28,20 @@
 │   ├── article-4.md
 │   ├── article-5.md
 │   └── example-text.md
+├── static
+│   ├── css
+│   │   ├── _base.scss
+│   │   ├── _homepage.scss
+│   │   ├── _variables.scss
+│   │   └── main.scss
+│   ├── dist
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── js
+│   │       └── main.min.js
+│   └── js
+│       ├── custom.js
+│       └── log.js
 └── templates
     ├── base.html
     ├── index.html
