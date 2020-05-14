@@ -12,10 +12,19 @@
 .
 ├── main.py
 ├── pages
+│   ├── article-1.md
+│   ├── article-2.md
+│   ├── article-3.md
+│   ├── article-4.md
+│   ├── article-5.md
 │   └── example-text.md
 └── templates
     ├── base.html
-    └── page.html
+    ├── index.html
+    ├── page.html
+    ├── partials
+    │   └── _list.html
+    └── tag.html
 
 ```
 

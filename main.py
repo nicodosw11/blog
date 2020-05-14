@@ -28,5 +28,11 @@ def page(path):
     return render_template("page.html", page=page)  # return pages.get_or_404(path).html
 
 
+@app.route('/tag/<string:tag>/')
+def tag(tag):
+    tagged = [p for p in pages if tag in p.meta.get('tags', [])]
+    return render_template('tag.html', pages=tagged, tag=tag)
+
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
