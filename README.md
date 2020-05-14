@@ -59,3 +59,51 @@ Running ```python main.py```, navigate to the below address in browser:
 http://localhost:5000
 http://localhost:5000/example-text/
 ```
+
+## Build static set of files and assets
+
+```python main.py build```
+
+```
+
+.
+├── article-1
+│   └── index.html
+├── article-2
+│   └── index.html
+├── article-3
+│   └── index.html
+├── article-4
+│   └── index.html
+├── article-5
+│   └── index.html
+├── example-text
+│   └── index.html
+├── index.html
+├── new
+│   └── index.html
+├── static
+│   ├── css
+│   │   ├── _base.scss
+│   │   ├── _homepage.scss
+│   │   ├── _variables.scss
+│   │   └── main.scss
+│   ├── dist
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── js
+│   │       └── main.min.js
+│   └── js
+│       ├── custom.js
+│       └── log.js
+├── tag
+│   ├── awesome
+│   │   └── index.html
+│   ├── general
+│   │   └── index.html
+│   └── stuff
+│       └── index.html
+└── welcome
+    └── index.html
+
+```

@@ -53,7 +53,7 @@ def tag(tag):
     return render_template("tag.html", pages=tagged, tag=tag)
 
 
-@app.route("/new")
+@app.route("/new/")
 def latest():
     # Articles are pages with a date
     articles = (p for p in pages if "date" in p.meta)
