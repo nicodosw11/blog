@@ -2,9 +2,11 @@
 - Python 3.6.8
 - Flask 1.1.2
 - Flask-FlatPages 0.7.2
+- Frozen-Flask 0.15
 
 ```pip install flask```    
 ```pip install Flask-FlatPages```
+```pip install Frozen-Flask```
 
 ## Project Structure
 
