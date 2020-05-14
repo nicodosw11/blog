@@ -11,8 +11,11 @@
 ```
 .
 ├── main.py
-└── pages
-    └── example-text.md
+├── pages
+│   └── example-text.md
+└── templates
+    ├── base.html
+    └── page.html
 
 ```
 

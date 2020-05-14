@@ -1,6 +1,9 @@
 .
 ├── main.py
-└── pages
-    └── example-text.md
+├── pages
+│   └── example-text.md
+└── templates
+    ├── base.html
+    └── page.html
 
-1 directory, 2 files
+2 directories, 4 files
