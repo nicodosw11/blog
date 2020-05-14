@@ -10,7 +10,9 @@
 
 ```
 .
-└── main.py
+├── main.py
+└── pages
+    └── example-text.md
 
 ```
 
@@ -19,4 +21,5 @@
 Running ```python main.py```, navigate to the below address in browser:
 ```
 http://localhost:5000
+http://localhost:5000/example-text/
 ```

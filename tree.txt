@@ -1,4 +1,6 @@
 .
-└── main.py
+├── main.py
+└── pages
+    └── example-text.md
 
-0 directories, 1 file
+1 directory, 2 files
