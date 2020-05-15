@@ -1,32 +1,40 @@
 .
-├── main.py
-├── pages
-│   ├── article-1.md
-│   ├── article-2.md
-│   ├── article-3.md
-│   ├── article-4.md
-│   ├── article-5.md
-│   └── example-text.md
-├── static
-│   ├── css
-│   │   ├── _base.scss
-│   │   ├── _homepage.scss
-│   │   ├── _variables.scss
-│   │   └── main.scss
-│   ├── dist
+├── blog_app
+│   ├── __init__.py
+│   ├── pages
+│   │   ├── article-1.md
+│   │   ├── article-2.md
+│   │   ├── article-3.md
+│   │   ├── article-4.md
+│   │   ├── article-5.md
+│   │   └── example-text.md
+│   ├── posts
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── static
 │   │   ├── css
-│   │   │   └── style.css
+│   │   │   ├── _base.scss
+│   │   │   ├── _homepage.scss
+│   │   │   ├── _variables.scss
+│   │   │   └── main.scss
+│   │   ├── dist
+│   │   │   ├── css
+│   │   │   │   └── style.css
+│   │   │   └── js
+│   │   │       └── main.min.js
 │   │   └── js
-│   │       └── main.min.js
-│   └── js
-│       ├── custom.js
-│       └── log.js
-└── templates
-    ├── base.html
-    ├── index.html
-    ├── page.html
-    ├── partials
-    │   └── _list.html
-    └── tag.html
+│   │       ├── custom.js
+│   │       └── log.js
+│   ├── templates
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── page.html
+│   │   ├── partials
+│   │   │   └── _list.html
+│   │   └── tag.html
+│   └── util
+│       └── assets.py
+├── freeze.py
+└── main.py
 
-9 directories, 20 files
+12 directories, 25 files

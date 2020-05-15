@@ -52,6 +52,51 @@
 
 ```
 
+Blueprints
+
+```
+
+.
+├── blog_app
+│   ├── __init__.py
+│   ├── pages
+│   │   ├── article-1.md
+│   │   ├── article-2.md
+│   │   ├── article-3.md
+│   │   ├── article-4.md
+│   │   ├── article-5.md
+│   │   └── example-text.md
+│   ├── posts
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── static
+│   │   ├── css
+│   │   │   ├── _base.scss
+│   │   │   ├── _homepage.scss
+│   │   │   ├── _variables.scss
+│   │   │   └── main.scss
+│   │   ├── dist
+│   │   │   ├── css
+│   │   │   │   └── style.css
+│   │   │   └── js
+│   │   │       └── main.min.js
+│   │   └── js
+│   │       ├── custom.js
+│   │       └── log.js
+│   ├── templates
+│   │   ├── base.html
+│   │   ├── index.html
+│   │   ├── page.html
+│   │   ├── partials
+│   │   │   └── _list.html
+│   │   └── tag.html
+│   └── util
+│       └── assets.py
+├── freeze.py
+└── main.py
+
+```
+
 ## Usage
 
 Running ```python main.py```, navigate to the below address in browser:
@@ -62,7 +107,7 @@ http://localhost:5000/example-text/
 
 ## Build static set of files and assets
 
-```python main.py build```
+```python freeze.py build```
 
 ```
 

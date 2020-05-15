@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Posts</h2> {{ all }}
+    <ul>
+    {% for page in pages %}
+        <li>
+          <a href="{{ url_for("posts.page", path=page.path) }}">{{ page.title }}</a>
+        </li>
+    {% else %}
+        <li>No pages so far</li>
+    {% endfor %}
+    </ul>
+
+    <h2>List of stuff</h2>
+    {% with pages=pages  %}
+        {% include "partials/_list.html" %}
+    {% endwith %}
+{% endblock content %}
