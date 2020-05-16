@@ -1,0 +1,14 @@
+#spinner {
+  color: $text-main;
+  // background-color: beige;
+  padding: 30rem 0 20rem;
+  font: 400 2.4rem/1 "Cabin Condensed";
+  text-align: center;
+  i {
+    display: inline-block;
+  }
+}
+.i-spin {
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}

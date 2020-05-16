@@ -1,0 +1,43 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: $border-color;
+  color: $text-main;
+  margin-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444444;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+// variables
+$primary: #00baca;
+$primary-light1: lighten($primary, 5%);
+$primary-light2: lighten($primary, 10%);
+
+$accent: tomato;
+
+$text-main: #3a3a3a;
+
+$border-color: #fafafa;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

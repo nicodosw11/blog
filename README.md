@@ -151,22 +151,54 @@ http://localhost:5000/example-text/
 │   └── index.html
 ├── article-5
 │   └── index.html
+├── articles
+│   └── index.html
 ├── example-text
 │   └── index.html
 ├── index.html
 ├── new
 │   └── index.html
+├── page
+│   ├── 1
+│   │   └── index.html
+│   ├── 2
+│   │   └── index.html
+│   └── 3
+│       └── index.html
 ├── static
 │   ├── css
-│   │   ├── _base.scss
-│   │   ├── _homepage.scss
-│   │   ├── _variables.scss
+│   │   ├── _articles.scss
+│   │   ├── _test.scss
+│   │   ├── abstracts
+│   │   │   ├── _mixins.scss
+│   │   │   └── _variables.scss
+│   │   ├── base
+│   │   │   ├── _animations.scss
+│   │   │   ├── _base.scss
+│   │   │   └── _typography.scss
+│   │   ├── components
+│   │   │   ├── _avatar.scss
+│   │   │   ├── _spinner.scss
+│   │   │   └── _up.scss
 │   │   └── main.scss
 │   ├── dist
 │   │   ├── css
 │   │   │   └── style.css
 │   │   └── js
 │   │       └── main.min.js
+│   ├── fonts
+│   │   ├── icomoon.eot
+│   │   ├── icomoon.svg
+│   │   ├── icomoon.ttf
+│   │   └── icomoon.woff
+│   ├── img
+│   │   ├── avatar.jpeg
+│   │   ├── clapham.jpg
+│   │   ├── parisquai-panorama.jpg
+│   │   ├── programmer.jpeg
+│   │   ├── python.jpg
+│   │   ├── reuters.jpeg
+│   │   └── top-view-of-paris.jpg
 │   └── js
 │       ├── custom.js
 │       └── log.js

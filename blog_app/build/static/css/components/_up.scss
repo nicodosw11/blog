@@ -1,0 +1,20 @@
+#up {
+  border-radius: 5px;
+  color: #fff;
+  padding: 2rem;
+  width: 6.2rem;
+  height: 6.2rem;
+  bottom: -7.2rem;
+  right: 1rem;
+  position: fixed;
+  cursor: pointer;
+  z-index: 999;
+  background: $text-main;
+  transition: bottom 0.3s ease;
+  &:hover {
+    background: $primary;
+  }
+  &.show {
+    bottom: 1rem;
+  }
+}
