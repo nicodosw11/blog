@@ -1,0 +1,180 @@
+.section-articles {
+  .tag-label {
+    display: inline-block;
+    background: $primary;
+    color: #fff;
+    border-radius: 2em;
+    font-size: 1em;
+    line-height: 1;
+    padding: .5rem 1rem;
+    text-align: center;
+    margin-right: 0.4em;
+    text-transform: lowercase;
+  }
+  color: $text-main;
+  margin-top: 3rem;
+
+  img {
+    width: 58.5rem;
+    height: 34rem;
+  }
+
+  & > div.article-container:nth-of-type(odd) {
+    //> div:nth-of-type(2n+1)
+    color: $text-main;
+    padding: 20rem 0;
+    img {
+      border: 1rem solid #e6e6e6;
+    }
+    &:last-child {
+      display: none;
+    }
+    .tag-label {
+      background: transparent;
+      color: inherit;
+    }
+  }
+  & > div.article-container:nth-of-type(even) {
+    //> div:nth-of-type(2n)
+    color: #fff; //rgb(255, 255, 255);
+    background: #2d2d2a; //rgb(45, 45, 42);
+    &:after,
+    &:before {
+      content: "";
+      display: table;
+      width: 120%;
+      height: 20rem;
+      left: -10%;
+      background: #2d2d2a; //rgb(45, 45, 42);
+      position: relative;
+      z-index: 1;
+    }
+    &:before {
+      top: -10rem;
+      transform: rotate(5deg);
+    }
+    &:after {
+      top: 10rem;
+      transform: rotate(-5deg);
+    }
+    & > div.article-box {
+      margin-top: -20rem;
+    }
+    a {
+      margin-bottom: -19rem;
+    }
+    img {
+      border: 10px solid #191919;
+    }
+  }
+  & > div.article-container > div.article-box {
+    max-width: 117rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 2;
+    & > div {
+      display: table-cell;
+      width: 50%;
+      vertical-align: middle;
+      text-align: left;
+      cite,
+      small {
+        margin: 0;
+        display: block;
+      }
+      cite {
+        max-width: 48.5rem;
+        font: 400 4.8rem/1.1 "Patua One";
+      }
+      p {
+        max-width: 48.5rem;
+        margin: 3rem 0 2rem;
+        line-height: 1.4;
+      }
+      i {
+        margin: 0 1rem 0 3rem;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+      a {
+        color: inherit;
+        &:not(.tag-label):hover {
+          color: $primary;
+        }
+      }
+      img {
+        float: right;
+        border-radius: 5px;
+      }
+    }
+    .btn {
+      background: $primary;
+      color: #fff;
+      display: block;
+      width: 18rem;
+      height: 5rem;
+      clear: both;
+      border-radius: 5px;
+      margin-top: 8rem;
+      margin-left: auto;
+      margin-right: auto;
+      font: 700 1.6rem/5.1rem "Cabin Condensed";
+      text-align: center;
+      &:hover {
+        color: #fff;
+        background: #f39c12;
+      }
+    }
+  }
+}
+
+// @media only screen and (max-width: 1279px) {
+@media only screen and (max-width: 79.9375em) {
+  .section-articles {
+    & > div.article-container > div.article-box {
+      padding: 0 5rem;
+      // .hide-t{
+      //   display: none !important;
+      // }
+      // .btn {
+      //   margin-left: 0;
+      // }
+    }
+  }
+}
+
+// @media only screen and (max-width: 820px) {
+@media only screen and (max-width: 51.25em) {
+  // .section-articles {
+    // margin-top: -5rem;
+  // }
+// }
+
+// @media only screen and (max-width: 599px) {
+// @media only screen and (max-width: 37.4375em) {
+  .section-articles {
+    .hide-m { display: none !important;}
+    & > div.article-container > div.article-box {
+      // padding:0 2rem;
+      & > div {
+        display: block;
+        width: 100%;
+        text-align: center;
+        cite, p {
+          max-width: 100%;
+        }
+        small {
+          margin-bottom: 1rem;
+        }
+        img {
+          float: none;
+          max-width: 90%;
+          margin: 0 auto;
+          height: 17rem; // ratio tbd
+        }
+      }
+    }
+  }
+}

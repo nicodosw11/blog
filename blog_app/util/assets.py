@@ -6,7 +6,7 @@ bundles = {
     ),
     "home_css": Bundle(
         "css/main.scss",
-        depends=["css/*.scss"],
+        depends=["css/*.scss", "css/*/*.scss"],
         filters="libsass",
         output="dist/css/style.css",
     ),

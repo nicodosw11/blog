@@ -1,2 +1,2 @@
-static/.webassets-cache
-static/dist
+.webassets-cache
+dist
