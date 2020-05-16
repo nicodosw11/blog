@@ -59,6 +59,7 @@ Blueprints
 .
 ├── blog_app
 │   ├── __init__.py
+│   ├── models.py
 │   ├── pages
 │   │   ├── article-1.md
 │   │   ├── article-2.md
@@ -71,23 +72,51 @@ Blueprints
 │   │   └── routes.py
 │   ├── static
 │   │   ├── css
-│   │   │   ├── _base.scss
-│   │   │   ├── _homepage.scss
-│   │   │   ├── _variables.scss
+│   │   │   ├── _articles.scss
+│   │   │   ├── _test.scss
+│   │   │   ├── abstracts
+│   │   │   │   ├── _mixins.scss
+│   │   │   │   └── _variables.scss
+│   │   │   ├── base
+│   │   │   │   ├── _animations.scss
+│   │   │   │   ├── _base.scss
+│   │   │   │   └── _typography.scss
+│   │   │   ├── components
+│   │   │   │   ├── _avatar.scss
+│   │   │   │   ├── _spinner.scss
+│   │   │   │   └── _up.scss
 │   │   │   └── main.scss
 │   │   ├── dist
 │   │   │   ├── css
 │   │   │   │   └── style.css
 │   │   │   └── js
 │   │   │       └── main.min.js
+│   │   ├── fonts
+│   │   │   ├── icomoon.eot
+│   │   │   ├── icomoon.svg
+│   │   │   ├── icomoon.ttf
+│   │   │   └── icomoon.woff
+│   │   ├── img
+│   │   │   ├── avatar.jpeg
+│   │   │   ├── clapham.jpg
+│   │   │   ├── parisquai-panorama.jpg
+│   │   │   ├── programmer.jpeg
+│   │   │   ├── python.jpg
+│   │   │   ├── reuters.jpeg
+│   │   │   └── top-view-of-paris.jpg
 │   │   └── js
 │   │       ├── custom.js
 │   │       └── log.js
 │   ├── templates
+│   │   ├── base-articles.html
 │   │   ├── base.html
+│   │   ├── index-all.html
+│   │   ├── index-articles.html
 │   │   ├── index.html
 │   │   ├── page.html
 │   │   ├── partials
+│   │   │   ├── _articles.html
+│   │   │   ├── _avatar.html
 │   │   │   └── _list.html
 │   │   └── tag.html
 │   └── util
