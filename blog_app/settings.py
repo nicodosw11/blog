@@ -22,7 +22,8 @@ FREEZER_DESTINATION_IGNORE = ['.git*']
 # we need to set the BASE_URL to the correct url as per GH Pages' standards
 # http://username.github.com/your-reponame or explicitly set FREEZER_BASE_URL
 FREEZER_BASE_URL = "http://localhost/{0}".format(REPO_NAME) # defaults to 'http://localhost/'
-FREEZER_REMOVE_EXTRA_FILES = False  # IMPORTANT: If this is True (the default), all app files
+FREEZER_RELATIVE_URLS = True
+FREEZER_REMOVE_EXTRA_FILES = True  # IMPORTANT: If this is True (the default), all app files
                                     # will be deleted when you run the freezer
 # FLATPAGES_MARKDOWN_EXTENSIONS = ['codehilite'] # defaults
 FLATPAGES_ROOT = os.path.join(APP_DIR, 'pages') # or FLATPAGES_ROOT = os.path.join(PROJECT_ROOT, 'pages')
