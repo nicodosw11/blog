@@ -12,6 +12,7 @@
 │   ├── posts
 │   │   ├── __init__.py
 │   │   └── routes.py
+│   ├── settings.py
 │   ├── static
 │   │   ├── css
 │   │   │   ├── _articles.scss
@@ -66,4 +67,4 @@
 ├── freeze.py
 └── main.py
 
-17 directories, 49 files
+17 directories, 50 files

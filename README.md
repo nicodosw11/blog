@@ -70,6 +70,7 @@ Blueprints
 │   ├── posts
 │   │   ├── __init__.py
 │   │   └── routes.py
+│   ├── settings.py
 │   ├── static
 │   │   ├── css
 │   │   │   ├── _articles.scss

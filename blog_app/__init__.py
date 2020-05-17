@@ -7,13 +7,9 @@ from .util.assets import bundles
 pages = FlatPages()
 # freezer = Freezer()
 
-DEBUG = True
-FLATPAGES_AUTO_RELOAD = DEBUG
-FLATPAGES_EXTENSION = ".md"
-
-def create_app():
+def create_app(config='settings.py'):
     app = Flask(__name__)
-    app.config.from_object(__name__)
+    app.config.from_pyfile(config)
 
     pages.init_app(app)
     # freezer.init_app(app)
