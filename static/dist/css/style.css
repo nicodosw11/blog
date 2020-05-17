@@ -110,8 +110,8 @@ a {
 
 @font-face {
   font-family: "icomoon";
-  src: url("/static/fonts/icomoon.eot?9ibvuc");
-  src: url("/static/fonts/icomoon.eot?9ibvuc#iefix") format("embedded-opentype"), url("/static/fonts/icomoon.ttf?9ibvuc") format("truetype"), url("/static/fonts/icomoon.woff?9ibvuc") format("woff"), url("/static/fonts/icomoon.svg?9ibvuc#icomoon") format("svg");
+  src: url("../../fonts/icomoon.eot?9ibvuc");
+  src: url("../../fonts/icomoon.eot?9ibvuc#iefix") format("embedded-opentype"), url("../../fonts/icomoon.ttf?9ibvuc") format("truetype"), url("../../fonts/icomoon.woff?9ibvuc") format("woff"), url("../../fonts/icomoon.svg?9ibvuc#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
