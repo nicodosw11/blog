@@ -162,6 +162,95 @@ a {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
 
+.bg-peas {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='600' viewBox='0 0 900 600'%3E%3Cg %3E%3Cpath fill='%234de7b9' d='M306.9%2C210.2c-1.2-22.8-13.5-42.7-40.8-41.1c-18.3%2C1.1-35.9%2C3.6-47.5%2C20.1c-5.2%2C7.4-10.6%2C15.6-11.4%2C24.9c-0.5%2C5.8%2C0.2%2C12%2C1.2%2C17.7c9%2C49.6%2C85.3%2C46.7%2C96.4%2C0.2C306.6%2C224.9%2C307.3%2C217.4%2C306.9%2C210.2z'/%3E%3Cpath fill='%234de7b9' d='M137.2%2C481.3c-13.2-9.9-31.2-13.3-48.5-3.2c-12.6%2C7.3-19.1%2C17.4-21.1%2C28.2c-0.7%2C2.4-1.2%2C4.7-1.5%2C7c-8.2%2C35.4%2C33.7%2C78.9%2C72.6%2C48.6C167.6%2C539.3%2C164.4%2C501.6%2C137.2%2C481.3z'/%3E%3Cg fill='%234de7b9' %3E%3Cpath d='M547.9%2C588.3c-7.1-34.2-61.6-52.7-87.5-16.9c-11.2%2C11.3-12.7%2C26.3-7.6%2C39.7c1.8%2C7.5%2C5.5%2C13.9%2C10.4%2C19.1c19.4%2C20.3%2C53.4%2C26.2%2C72.8%2C1.9C545.9%2C619.7%2C553.9%2C604.2%2C547.9%2C588.3z'/%3E%3Cpath d='M547.9-11.7c-7.1-34.2-61.6-52.7-87.5-16.9c-11.2%2C11.3-12.7%2C26.3-7.6%2C39.7c1.8%2C7.5%2C5.5%2C13.9%2C10.4%2C19.1c19.4%2C20.3%2C53.4%2C26.2%2C72.8%2C1.9C545.9%2C19.7%2C553.9%2C4.2%2C547.9-11.7z'/%3E%3C/g%3E%3Cpath fill='%234de7b9' d='M849.7%2C498c-22.3%2C1.3-43.2%2C7.5-52.7%2C29.5c-3.3%2C7.7-7.3%2C15.7-7%2C24.3c2%2C55.6%2C86.1%2C63.4%2C98.8%2C10.1C890.6%2C554.6%2C877.3%2C496.4%2C849.7%2C498z'/%3E%3Cpath fill='%234de7b9' d='M762%2C291.1c-8.2-6.1-19.1-1.9-27.3%2C2.2c-7.4%2C3.7-14.4%2C8.2-21.6%2C12.1c-6.6%2C3.6-13.7%2C7-19.8%2C11.5c-18.3%2C13.5-2.5%2C45.1%2C10.6%2C56.4c17%2C14.6%2C41.6%2C15.9%2C59.6%2C2.1C794.1%2C351.8%2C790.7%2C312.4%2C762%2C291.1z'/%3E%3Cpath fill='%234de7b9' d='M863.3%2C170.3c-4.5-15.7-17.9-28.8-33.4-34.4c-16.2-5.8-38.4-2.9-51.8%2C8.1c-14.9%2C12.2-14.5%2C31.7-11.4%2C49c9.6%2C53.9%2C84.3%2C47.7%2C97-1.3C865.6%2C184.4%2C865.3%2C177.1%2C863.3%2C170.3z'/%3E%3Cpath fill='%234de7b9' d='M598.4%2C86.1c-10.2%2C15.5-9.3%2C34.2-0.9%2C50.4c2.6%2C5%2C6.2%2C9.5%2C10.4%2C13.2c14.2%2C12.6%2C35.5%2C17.1%2C53.2%2C9.5c14.3-6.1%2C23.9-19.8%2C26.7-34.7C707.4%2C75.6%2C629.7%2C38.5%2C598.4%2C86.1z'/%3E%3Cpath fill='%234de7b9' d='M509.8%2C413.3c-17.3%2C22.6-11.8%2C59%2C17.5%2C75.3c22.6%2C12.6%2C52.2%2C1.7%2C63.8-20.9c21.4-42-9.2-85-56.5-71C523.8%2C399.9%2C515.6%2C405.8%2C509.8%2C413.3z'/%3E%3Cpath fill='%234de7b9' d='M607.4%2C232.3c-0.5-0.4-1-0.8-1.4-1.2c-16.5-12.8-30.2-22.1-50.3-8.4c-15.5%2C10.6-29%2C30.3-31.4%2C49.1c-4.2%2C33.6%2C30.6%2C46.9%2C58.6%2C40.6C619.6%2C304.2%2C640.6%2C259.5%2C607.4%2C232.3z'/%3E%3Cpath fill='%234de7b9' d='M410.6%2C95c-36.5%2C1.3-74.1%2C41.8-43.1%2C74.3c19.8%2C20.9%2C54.4%2C20.7%2C74.6%2C0.5c20.5-20.4%2C18.4-53.1-6.9-68.6C427.7%2C96.6%2C419.2%2C94.7%2C410.6%2C95z'/%3E%3Cpath fill='%234de7b9' d='M291.3%2C23c-0.1-0.1-0.1-0.1-0.2-0.2c-14.2-16.9-38.3-25.6-61.4-12.3c-13.5%2C7.8-20.5%2C18.7-22.7%2C30.2c-5.7%2C18%2C1.5%2C34.2%2C14.2%2C44.8c15.4%2C16.8%2C40.3%2C24.1%2C64.2%2C5.5c9.6-7.4%2C15-16.3%2C17.2-25.4C308.6%2C48.8%2C302.7%2C33.6%2C291.3%2C23z'/%3E%3Cpath fill='%234de7b9' d='M419.1%2C440.6c-16.9-14.5-41.8-21.5-61.7-9.5c-18.3%2C11.1-1%2C100.1%2C32.2%2C93.5c23.8-4.7%2C45.3-22.4%2C48.1-44.3C439.6%2C466.1%2C431.5%2C451.3%2C419.1%2C440.6z'/%3E%3Cpath fill='%234de7b9' d='M127%2C227c-12-4.3-25.4-2.1-38.7%2C11.4C71%2C255.9%2C61.4%2C286.1%2C80.4%2C306c21.3%2C22.3%2C86.9%2C27.5%2C89.6-14.9c0.5-8.9-2.7-17.9-6.5-25.8C155.1%2C248.3%2C142.1%2C232.5%2C127%2C227z'/%3E%3Cpath fill='%234de7b9' d='M281.5%2C407.6c-0.3-0.4-0.7-0.7-1-1c-19.3-17.6-59.1-0.6-78.1%2C10.3c-23.8%2C13.7-8.2%2C41.1%2C5.4%2C55.8c16.3%2C17.6%2C42.7%2C25.2%2C68%2C5.8C291.3%2C466.6%2C295.5%2C422.7%2C281.5%2C407.6z'/%3E%3Cpath fill='%234de7b9' d='M137.9%2C110.2c-10.4-25.7-43.3-32.1-67-23.6C60.1%2C90.4%2C50%2C97.8%2C45.1%2C108.6c-21.2%2C47.3%2C44.9%2C81.1%2C78.5%2C51c9.5-8.5%2C17.3-18.9%2C17.4-32.4C141%2C120.8%2C139.9%2C115.1%2C137.9%2C110.2z'/%3E%3Cpath fill='%234de7b9' d='M344.3%2C284.7c-10%2C14.9-9.2%2C34.1-0.9%2C49.5c3.4%2C6.3%2C8.6%2C13.8%2C16.1%2C15.8c7.1%2C1.9%2C15.1%2C0.7%2C22.1-0.6c15.7-3%2C45.6-10.5%2C52.3-26.8C453.5%2C274.4%2C375.6%2C237.9%2C344.3%2C284.7z'/%3E%3Cg fill='%234de7b9' %3E%3Cpath d='M-29.2%2C431.8c23.4%2C12.4%2C54.1%2C1.7%2C66.1-20.6c9.6-17.8%2C10.4-40.4-3.3-56.5c-10.5-12.4-44.2-25.8-58.5-11.3c-3%2C3.1-5.1%2C7.1-6.9%2C10.9C-41.1%2C373.2-55%2C418.1-29.2%2C431.8z'/%3E%3Cpath d='M870.8%2C431.8c23.4%2C12.4%2C54.1%2C1.7%2C66.1-20.6c9.6-17.8%2C10.4-40.4-3.3-56.5c-10.5-12.4-44.2-25.8-58.5-11.3c-3%2C3.1-5.1%2C7.1-6.9%2C10.9C858.9%2C373.2%2C845%2C418.1%2C870.8%2C431.8z'/%3E%3C/g%3E%3Cpath fill='%234de7b9' d='M671.4%2C460.5c-10.7%2C1.7-20.2%2C8.3-26.2%2C22.2c-21.5%2C49.5%2C45.4%2C84.9%2C79.4%2C53.3c16.3-15.2%2C24-31%2C6.5-48.1c-5.9-5.8-12.3-11-19.1-15.6C699.5%2C463.7%2C684.5%2C458.4%2C671.4%2C460.5z'/%3E%3C/g%3E%3C/svg%3E") #00DD9B;
+  background-attachment: fixed; }
+
+.bg-zigzag {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%234de7b9' points='120%2C0 120%2C60 90%2C30 60%2C0 0%2C0 0%2C0 60%2C60 0%2C120 60%2C120 90%2C90 120%2C60 120%2C0'/%3E%3C/svg%3E") #00DD9B;
+  background-attachment: fixed; }
+
+.bg-constellation {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%2399f1d7' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23e6fbf5'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E") #00DD9B;
+  background-attachment: fixed; }
+
+.bg-waves {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='240' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%234de7b9' stroke-width='14.4' %3E%3Cpath d='M-500%2C75c0%2C0%2C125-30%2C250-30S0%2C75%2C0%2C75s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C45c0%2C0%2C125-30%2C250-30S0%2C45%2C0%2C45s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C105c0%2C0%2C125-30%2C250-30S0%2C105%2C0%2C105s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C15c0%2C0%2C125-30%2C250-30S0%2C15%2C0%2C15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500-15c0%2C0%2C125-30%2C250-30S0-15%2C0-15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C135c0%2C0%2C125-30%2C250-30S0%2C135%2C0%2C135s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3C/g%3E%3C/svg%3E") #00DD9B;
+  background-attachment: fixed; }
+
+/* &header-parallax.index */
+/* &header-parallax.article */
+#header-parallax {
+  color: white;
+  text-align: center; }
+  #header-parallax.index, #header-parallax.article {
+    overflow: hidden; }
+  #header-parallax #header-wrapper {
+    padding: 5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #header-parallax #header-wrapper.index, #header-parallax #header-wrapper.article {
+      position: relative; }
+    #header-parallax #header-wrapper.index img, #header-parallax #header-wrapper.article img.round-article-image {
+      display: none; }
+    #header-parallax #header-wrapper #header-body {
+      width: 100%; }
+      #header-parallax #header-wrapper #header-body h1 {
+        max-width: 59.5rem;
+        line-height: 1.1;
+        font-weight: bold;
+        margin: -0.7rem auto 1.8rem; }
+      #header-parallax #header-wrapper #header-body p {
+        max-width: 50rem;
+        line-height: 1.3; }
+      #header-parallax #header-wrapper #header-body p,
+      #header-parallax #header-wrapper #header-body img.author-avatar {
+        margin: 0 auto 3rem; }
+      #header-parallax #header-wrapper #header-body.article img.author-avatar {
+        height: 7.4rem;
+        width: 7.4rem;
+        border-radius: 7.4rem;
+        box-sizing: border-box;
+        border: 0.5rem solid white;
+        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.25); }
+      #header-parallax #header-wrapper #header-body span {
+        float: left; }
+      #header-parallax #header-wrapper #header-body time {
+        float: right; }
+      #header-parallax #header-wrapper #header-body.index img, #header-parallax #header-wrapper #header-body.article img.round-article-image {
+        width: 46.8rem;
+        height: 46.8rem;
+        display: block;
+        right: -5.5rem;
+        opacity: 0.9;
+        bottom: -20rem;
+        position: absolute; }
+
+@media only screen and (min-width: 27.5em) {
+  #header-parallax #header-wrapper {
+    padding: 10rem 5rem; } }
+
+@media only screen and (max-width: 27.4375em) {
+  #header-parallax #header-wrapper #header-body h1 {
+    font-size: 2.8rem;
+    line-height: 1.2; }
+  #header-parallax #header-wrapper #header-body i {
+    display: none; } }
+
+/* &curve */
+#curve {
+  width: 100%;
+  height: 2rem;
+  display: block;
+  margin-top: -2rem;
+  position: relative; }
+
+@media only screen and (min-width: 35em) {
+  #curve {
+    height: 4rem;
+    margin-top: -4rem; } }
+
 #avatar img {
   display: block;
   border-radius: 100%;
