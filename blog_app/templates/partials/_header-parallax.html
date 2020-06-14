@@ -1,0 +1,39 @@
+<header id="header-parallax" class="article bg-constellation">
+  <div id="header-wrapper" class="article">
+    <div id="header-body" class="article">
+      <h1>{{ page.title }}</h1>
+      <p>
+        My Blog is coming soon for now you can read our blog for
+        <strong>coding advice</strong>, <strong>coding recipes</strong> and
+        <strong>coding tips</strong>
+      </p>
+      <!-- <i class="icon-circle-down"></i> -->
+      <img src="{{url_for("static", filename='img/avatar.jpeg')}}" alt="Nicolas Dotto" class="author-avatar" style="-webkit-filter: saturate(110%); filter: saturate(110%)">
+      <!-- <a class="btn cl-brand show-blog-modal">Blog categories</a> -->
+      <p>
+        <small>
+          <span>
+          <i class="icon-attachment"></i> code
+          <i class="icon-price-tags"></i>
+          {% if page.meta.tags|length %}
+            {% for page_tag in page.meta.tags %}
+                <a href="{{ url_for("posts.tag", tag=page_tag) }}">{{ page_tag }}</a>
+            {% endfor %}
+          {% endif %}
+          </span>
+          <time><i class="icon-clock"></i> {{ page.date }} </time>
+        </small>
+      </p>
+      <img src="{{url_for("static", filename='img/caffeine-coffee-cup.png')}}" alt="Coffee cup" class="round-article-image">
+    </div>
+  </div>
+</header>
+<svg id="curve" viewBox="0 0 1440 40" preserveAspectRatio="none">
+  <defs>
+    <path
+      id="a"
+      d="M0,0 L1440,0 L1440,40 L0,40 L0,0 Z M1440,0 L0,0 C240,26.6666667 480,40 720,40 C960,40 1200,26.6666667 1440,0 Z"
+    />
+  </defs>
+  <g fill="none" fill-rule="evenodd"><use fill="#FFFFFF" xlink:href="#a" /></g>
+</svg>
